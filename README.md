@@ -2,6 +2,10 @@
 
 A responsive corporate website for **Nova Tech**, a company offering innovative technology solutions. The website is built using **HTML, Bootstrap 5, and custom CSS**, designed to provide a modern, user-friendly experience on both desktop and mobile devices.
 
+## Live Demo
+
+Check out the live website here: [Nova Tech Website](https://yourusername.github.io/nova-tech-website/)
+
 ## Features
 
 - **Responsive Design:** Optimized for desktop, tablet, and mobile screens.  
@@ -24,7 +28,7 @@ A responsive corporate website for **Nova Tech**, a company offering innovative 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/nova-tech-website.git
+   git clone https://github.com/Luchiri/nova-tech-website
 Open index.html in your web browser.
 
 Edit the content or images in the assets folder to customize your website.
