@@ -1,0 +1,76 @@
+/* Compact navbar height */
+.navbar {
+  height: 70px; /* Fixed navbar height */
+}
+.logo-text {
+  margin-left: -12px; /* pulls the text closer */
+}
+.nova-text-glow {
+  font-size: 1.9rem;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to right, #1A73E8, #6EC6FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(30, 144, 255, 0.3);
+}
+
+/* Service cards hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 123, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body { margin:0; padding:0; }
+    .hero-section h1, .hero-section p { margin:0; }
+    .card-icon { font-size: 2.5rem; color: #007BFF; margin-bottom: 15px; }
+    .workflow-step { text-align:center; padding:20px; border-radius:10px; border:1px solid #ddd; transition: transform 0.3s; }
+    .workflow-step:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.workflow-step {
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.workflow-step:hover {
+  transform: translateY(-8px);
+  background-color: #e9f5ff;
+}
+.workflow-step:hover i {
+  color: #0056b3;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Push the contact section a little down from hero */
+section.py-5.contact-section {
+  margin-top: 50px; /* adjust as needed */
+}
+
+/* Target only mobile collapsed navbar */
+@media (max-width: 991px) {
+  /* Collapse container */
+  #navbarNav.collapse {
+    background-color: #0d1f4f; /* Nova Tech dark blue */
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    padding: 1rem;
+  }
+
+  /* Nav links inside mobile menu */
+  #navbarNav .nav-link {
+    color: #ffffff; /* White text */
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+
+  #navbarNav .nav-link:hover {
+    color: #00a3ff; /* Nova Tech blue hover */
+  }
+
+  /* Stack nav items vertically */
+  #navbarNav .navbar-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
